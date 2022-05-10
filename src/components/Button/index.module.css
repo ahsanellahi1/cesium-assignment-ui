@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 26px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container > * {
+  padding: 0px 5px;
+}
+
+.text {
+  color: var(--white-color);
+  font-size: 14px;
+}
+
+.icon {
+  color: var(--white-color);
+  font-size: 16px;
+}
+
+.primary {
+  background-color: var(--blue-color);
+}
+
+.danger {
+  background-color: var(--red-color);
+}
+
+.disabled {
+  background-color: var(--gray-color);
+  opacity: 0.2;
+  cursor: default;
+}

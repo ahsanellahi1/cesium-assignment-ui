@@ -1,0 +1,21 @@
+:root {
+  --bg-color: #29292f;
+  --white-color: rgba(255, 255, 255, 0.85);
+  --blue-color: #0075db;
+  --red-color: #ff444c;
+  --gray-color: #737373;
+  --secondary-bg-color: #17171a;
+  --border-color: #565664;
+  --selected-color: #000344;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}

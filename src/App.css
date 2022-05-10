@@ -1,0 +1,45 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: var(--bg-color);
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+
+.materials-management {
+  max-width: 1280px;
+  max-height: 720px;
+  overflow: scroll;
+}
+
+.row {
+  display: flex;
+  flex-direction: "row";
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: var(--white-color);
+  font-size: 16px;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+  background-color: var(--border-color);
+  color: var(--white-color);
+  padding: 0px 10px;
+  outline: unset;
+  border: unset;
+  border-radius: 4px;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}

@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.container > * {
+  padding: 10px;
+}
+
+.title {
+  font-size: 28px;
+  color: var(--white-color);
+}
+
+.button-group {
+  display: flex;
+}
+
+.button-group > * {
+  margin-right: 10px;
+}
+
+.materials-list {
+  width: 220px;
+  height: 290px;
+  overflow: scroll;
+  background-color: var(--secondary-bg-color);
+  border: 1px solid var(--border-color);
+}
+
+.materials-list-empty {
+  display: flex;
+  color: var(--white-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  height: 290px;
+  margin-left: 20px;
+  background-color: var(--secondary-bg-color);
+  padding: 0px 20px;
+}
+
+.form > * {
+  margin: 20px 0;
+}
+
+.form-input-control {
+  flex: 1;
+}
+
+.form-input-control > * {
+  padding-bottom: 5px;
+}
+
+.row > * {
+  margin: 0px 10px;
+}
+
+.form-color-input {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.color-picker-container {
+  position: relative;
+  top: 40px;
+  z-index: 2;
+}
+
+.color-picker-cover {
+  position: absolute;
+}
+
+.cost-container {
+  width: 30%;
+  justify-content: space-between;
+}
+
+.error {
+  color: var(--white-color);
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+  padding: 5px 10px;
+}
