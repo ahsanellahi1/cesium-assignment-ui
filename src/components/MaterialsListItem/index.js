@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
-import { numberWithCommas } from "../../constants/helpers";
+import { numberWithCommas } from "../../helpers";
 import styles from "./index.module.css";
 
 const MaterialListItem = ({ data, onClick, selected }) => {

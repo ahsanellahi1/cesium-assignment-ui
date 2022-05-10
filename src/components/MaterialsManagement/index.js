@@ -329,7 +329,7 @@ const MaterialsManagement = ({ className }) => {
 
   const getCost = () => {
     const sum = materials.reduce((prev, cur) => {
-      return prev + parseFloat(cur.cost);
+      return prev + parseFloat(cur.cost) * cur.volume;
     }, 0.0);
 
     return getFormattedFloatStr(sum);
